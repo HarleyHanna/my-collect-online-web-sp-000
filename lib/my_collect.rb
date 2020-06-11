@@ -1,7 +1,7 @@
 def my_collect (collection)
   i = 0
   final_collection = []
-  if collection.length == 0
+  if block_given? == true
       return nil
   else
     while i <= collection.length
