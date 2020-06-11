@@ -5,8 +5,9 @@ def my_collect (collection)
       return 10
   else
     while i < collection.length
-      yield collection[i]
+      final_collection << yield collection[i]
       i += 1
     end
   end
+  return final_collection
 end
